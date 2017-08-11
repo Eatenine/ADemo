@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Android Demo</string>
+    <string name="connDevices">设备连接</string>
+    <string name="sendBdMsg">发送报文</string>
+    <string name="statSearch">开始搜索蓝牙设备</string>
+    <string name="battery">设备电量</string>
+    <string name="cardNum">卡号</string>
+    <string name="waitSec">倒计时</string>
+    <string name="safeReport">报平安</string>
+    <string name="SOS">报警</string>
+    <string name="blueIsConnected">蓝牙已连接</string>
+    <string name="title_activity_send_bdmsg">SendBDMsgActivity</string>
+
+    <!--主页头部联系的各个标题-->
+    <string name="eg1">线性布局</string>
+    <string name="eg2">框架布局</string>
+    <string name="eg3">绝对布局</string>
+    <string name="eg4">相对布局</string>
+    <string name="eg5">表格布局</string>
+    <string name="eg6">Get请求</string>
+    <string name="eg7">Post请求</string>
+    <string name="eg8">地图</string>
+    <string name="eg9">二维码扫描</string>
+    <string name="eg10">读写文件</string>
+    <string name="eg11">报警</string>
+    <string name="eg12">报警</string>
+    <string name="title_activity_eg7_brunch_feeling_detail">Eg7BrunchFeelingDetail</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lwj.ademo.Eg3AbsoluteLayout">
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="绝对布局还真的不好用"/>
+    <Button
+        android:onClick="eg3Btn1"
+        android:id="@+id/eg3Btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="不赞成就不赞成吧"
+        android:layout_x="10dp"
+        android:layout_y="20dp"/>
+    <Button
+        android:onClick="eg3Btn2"
+        android:id="@+id/eg3Btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第二个按钮"
+        android:layout_x="150dp"
+        android:layout_y="20dp"/>
+    <WebView
+        android:id="@+id/eg3webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_y="80dp"></WebView>
+
+</AbsoluteLayout>

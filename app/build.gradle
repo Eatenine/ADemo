@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+    defaultConfig {
+        applicationId "com.lwj.ademo"
+        minSdkVersion 24
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    //百度SDK的东西
+    sourceSets {
+        main() {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    repositories {
+        flatDir {
+            dirs "libs" //导入aar，就是那个安卓SDK
+        }
+    }
+
+    dependencies {
+        compile fileTree(include: ['*.jar'], dir: 'libs')
+        compile(name: 'BdSdkForAndroid', ext: 'aar')
+        //也是导入aar的操作
+        androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+            exclude group: 'com.android.support', module: 'support-annotations'
+        })
+        //下面这个我使用来整okhttp的
+        compile 'com.android.support:appcompat-v7:25.3.1'
+        compile 'com.android.support.constraint:constraint-layout:1.0.2'
+        compile 'com.android.support:recyclerview-v7:25.3.1'
+        compile 'io.reactivex.rxjava2:rxjava:2.1.0'
+        compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+        compile 'com.alibaba:fastjson:1.1.56.android'
+        compile 'com.tencent.mars:mars-core:1.1.9'
+        compile 'com.android.support:design:25.3.1'
+        compile 'com.squareup.okhttp:okhttp:2.4.0'
+        testCompile 'junit:junit:4.12'
+
+    }
+}
+dependencies {
+    compile files('libs/Amap_2DMap_V5.2.0_20170721.jar')
+    compile 'junit:junit:4.12'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+}

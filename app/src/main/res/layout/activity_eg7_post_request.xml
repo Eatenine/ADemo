@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lwj.ademo.Eg7PostRequest">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:id="@+id/eg7Titlell"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+        <TextView
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/eg7Title"
+            android:textSize="26sp"
+            android:text="足迹"
+            android:background="@color/deepOrange"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+        <Button
+            android:id="@+id/eg7Setting"
+            android:layout_alignParentRight="true"
+            android:background="@color/deepOrange"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="设置"/>
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:id="@+id/eg7SV1"
+
+        android:layout_below="@+id/eg7Titlell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:onClick="goToFeelingDetail"
+            android:textIsSelectable="true"
+            android:id="@+id/Eg7TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:background="@color/green"
+            android:layout_weight="1"
+            android:id="@+id/Eg7ButtonGetFeeling"
+            android:onClick="DoPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="加载最新足迹"/>
+        <Button
+            android:onClick="nextFeeling"
+            android:text="下一个"
+            android:background="@color/red"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

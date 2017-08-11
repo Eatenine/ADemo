@@ -1,0 +1,13 @@
+package com.lwj.ademo;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class Eg5TableLayout extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_eg5_table_layout);
+    }
+}

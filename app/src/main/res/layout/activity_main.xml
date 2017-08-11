@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lwj.ademo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal">
+        <TextView
+            android:onClick="goToEg1"
+            android:id="@+id/eg1"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:background="@color/indigo"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/eg1"/>
+        <TextView
+            android:onClick="goToEg2"
+            android:id="@+id/eg2"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/cyan"
+            android:layout_weight="1"
+            android:text="@string/eg2"/>
+        <TextView
+            android:onClick="goToEg3"
+            android:background="@color/brown"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/eg3"/>
+        <TextView
+            android:background="@color/deepOrange"
+            android:gravity="center"
+            android:onClick="goToEg4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/eg4"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal">
+        <TextView
+            android:onClick="goToEg5"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:background="@color/yellow"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/eg5"/>
+        <TextView
+            android:onClick="goToEg6"
+            android:gravity="center"
+            android:background="@color/purple"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/eg6"/>
+        <TextView
+            android:onClick="goToEg7"
+            android:gravity="center"
+            android:background="@color/orange"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/eg7"/>
+        <TextView
+            android:onClick="goToEg8"
+            android:gravity="center"
+            android:background="@color/blue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/eg8"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal">
+        <TextView
+            android:onClick="goToEg9"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:background="@color/green"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/eg9"/>
+        <TextView
+            android:onClick="goToEg10"
+            android:gravity="center"
+            android:background="@color/brown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/eg10"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="1111"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="1111"/>
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#696969">
+
+            </View>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="5dp"
+                android:background="#696969">
+
+            </View>
+
+            <Button
+                android:id="@+id/sendBdMsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E8E8E8"
+                android:onClick="sendBDMsg"
+                android:text="@string/sendBdMsg" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#696969">
+
+            </View>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="5dp"
+                android:background="#696969">
+
+            </View>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E8E8E8"
+                android:onClick="sendBDMsg"
+                android:text="@string/sendBdMsg" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#696969">
+
+            </View>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="5dp"
+                android:background="#696969">
+
+            </View>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E8E8E8"
+                android:onClick="sendBDMsg"
+                android:text="@string/sendBdMsg" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#696969">
+
+            </View>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="5dp"
+                android:background="#696969">
+
+            </View>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E8E8E8"
+                android:onClick="sendBDMsg"
+                android:text="@string/sendBdMsg" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#696969">
+
+            </View>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="5dp"
+                android:background="#696969">
+
+            </View>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E8E8E8"
+                android:onClick="sendBDMsg"
+                android:text="@string/sendBdMsg" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#696969">
+
+            </View>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="60dp"
+            android:background="#4CAF50"
+            android:text="@string/safeReport" />
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/connDecices"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="60dp"
+            android:background="#F57C00"
+            android:onClick="goToConnDevices"
+            android:text="@string/connDevices" />
+        <TextView
+            android:id="@+id/SOSReport"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="60dp"
+            android:background="#B71C1C"
+            android:text="@string/SOS"
+            android:longClickable="true"
+            />
+    </LinearLayout>
+
+</LinearLayout>
