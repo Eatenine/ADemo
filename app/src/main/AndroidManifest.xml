@@ -71,7 +71,8 @@
             android:label="@string/title_activity_eg7_brunch_feeling_detail"
             android:theme="@style/AppTheme" />
         <activity android:name=".Eg9QRScanner" />
-        <activity android:name=".Eg10File"></activity>
+        <activity android:name=".Eg10File" />
+        <activity android:name=".Eg11Views"></activity>
     </application>
 
 </manifest>

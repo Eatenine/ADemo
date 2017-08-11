@@ -12,9 +12,10 @@
         android:text="这是一个在FrameLayout里的文字"/>
     <Button
         android:onClick="goToEg2brunch"
-        android:layout_width="wrap_content"
+        style="@style/commonStyle"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:background="@drawable/black_circular_view"
         android:text="这是一个按钮点击进入更深的页面"/>
     <TextView
         android:id="@+id/visitCount"

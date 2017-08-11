@@ -7,7 +7,6 @@ import android.webkit.WebView;
 import android.widget.Button;
 
 public class Eg3AbsoluteLayout extends AppCompatActivity {
-    private Button Btn1,Btn2;
     private WebView webView;
 
 
@@ -23,6 +22,7 @@ public class Eg3AbsoluteLayout extends AppCompatActivity {
     }
     public void eg3Btn2(View view) {
         webView = (WebView) findViewById(R.id.eg3webView);
-        webView.loadUrl("http://www.orieange.com/skin/images/xcbd.jpg");
+        webView.loadUrl("file:///android_asset/linuxtest.html");
+
     }
 }

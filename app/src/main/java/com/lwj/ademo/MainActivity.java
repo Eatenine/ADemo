@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         connDevicesBtn = (TextView) findViewById(R.id.connDecices);
         SOSBtn = (TextView) findViewById(R.id.SOSReport);
+//        SOSBtn。df
         SOSBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -216,6 +217,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void goToEg10(View view) {
         Intent intent = new Intent(this,Eg10File.class);
+        startActivity(intent);
+    }
+    public void goToEg11(View view) {
+        Intent intent = new Intent(this,Eg11Views.class);
         startActivity(intent);
     }
 }

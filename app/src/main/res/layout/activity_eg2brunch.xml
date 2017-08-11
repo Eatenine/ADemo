@@ -8,6 +8,7 @@
     android:layout_height="match_parent"
     tools:context="com.lwj.ademo.Eg2brunch">
     <TextView
+        android:id="@+id/hdsy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -15,6 +16,12 @@
         android:onClick="backToMainActivity"
         android:textSize="40dp"
         android:textColor="@color/deepOrange" />
+    <Button
+        android:layout_below="@+id/hdsy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择照片"
+        android:onClick="picSelect"/>
 
 
 </RelativeLayout>

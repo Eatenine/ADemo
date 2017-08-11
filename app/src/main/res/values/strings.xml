@@ -22,7 +22,7 @@
     <string name="eg8">地图</string>
     <string name="eg9">二维码扫描</string>
     <string name="eg10">读写文件</string>
-    <string name="eg11">报警</string>
+    <string name="eg11">各种布局</string>
     <string name="eg12">报警</string>
     <string name="title_activity_eg7_brunch_feeling_detail">Eg7BrunchFeelingDetail</string>
 </resources>
