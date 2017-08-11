@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
+        //橙模仿SDK的初始化
+        BDAPI.api().init(getApplicationContext());
 
         connDevicesBtn = (TextView) findViewById(R.id.connDecices);
         SOSBtn = (TextView) findViewById(R.id.SOSReport);
