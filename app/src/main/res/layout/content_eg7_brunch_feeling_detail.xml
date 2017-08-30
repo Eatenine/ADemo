@@ -7,10 +7,27 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.lwj.ademo.Eg7BrunchFeelingDetail"
     tools:showIn="@layout/activity_eg7_brunch_feeling_detail">
-    <TextView
-        android:text="如果看到这句话就证明失败了"
+
+        <TextView
+            android:text="如果看到这句话就证明失败了"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/feelingDetail"/>
+        <View
+            android:layout_below="@+id/feelingDetail"
+            android:id="@+id/hengxian"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/black"
+            />
+    <ImageView
+        android:layout_below="@+id/feelingDetail"
+        android:layout_marginTop="5dp"
+        android:id="@+id/img1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/feelingDetail"/>
+        android:layout_height="wrap_content" />
+
+
+
 
 </RelativeLayout>
